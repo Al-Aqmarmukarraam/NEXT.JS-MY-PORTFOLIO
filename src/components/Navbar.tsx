@@ -1,5 +1,5 @@
 import React from 'react';
- import { RiMenuFold3Fill } from "react-icons/ri";
+import { PanelTopOpen } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
               <li className='menuLink'><a href='#Skills'>Skills</a></li>
               <li className='menuLink'><a href='#Contact'>Contact</a></li>
             </ul>
-            <RiMenuFold3Fill size={30}/>
+            < PanelTopOpen  size={30}/>
             </div>
         
        </div>

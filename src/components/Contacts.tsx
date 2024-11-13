@@ -1,6 +1,6 @@
-import React from "react"
-import { GiMailbox } from "react-icons/gi";
-import { FaMobileRetro } from "react-icons/fa6";
+'use client';
+import { useState } from 'react';
+import { MailCheck, PhoneCall } from 'lucide-react';
 
 function Contact() {
     return (
@@ -15,11 +15,11 @@ function Contact() {
                     </p>
                     <div className='flex gap-3 items-center' data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom">
-                        <GiMailbox size={30} /> pqr@gmail.com
+                         < MailCheck size={30} />  pqr@gmail.com
                     </div>
                     <div className='flex gap-3 items-center' data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom">
-                        <FaMobileRetro size={30} /> (021) 444-6666
+                        < PhoneCall  size={30} /> (021) 444-6666
                     </div>
                 </div>
                 <div className='space-y-8' data-aos="fade-up"
@@ -37,13 +37,16 @@ function Contact() {
                             className='h-[40-px] bg-transparent border border-x-navy to-blue-900'
                             id='msg' rows={6}>
                         </textarea>
-                    </div>
-                    <button className='bg-blue-50 p-2 px-6' data-aos="fade-up"
+                        <div/>
+                                    <button className='bg-dark bg-cyan-300' data-aos="fade-up"
+    
                         data-aos-anchor-placement="bottom-bottom">SEND!</button>
                 </div>
             </div>
         </div>
+        </div>
     );
-}
+};
+
 
 export default Contact
