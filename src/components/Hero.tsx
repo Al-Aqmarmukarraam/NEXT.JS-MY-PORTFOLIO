@@ -12,7 +12,7 @@ const Hero = () => {
       <div className='text-[80px] sm:text-[100px] front-bold leading tight flex justify-center items-center'>
         <div>
           <p data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">I'M</p>
+     data-aos-anchor-placement="bottom-bottom">I AM</p>
           <p data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">AL-AQMAR</p>
           <p data-aos="fade-up"

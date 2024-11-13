@@ -1,6 +1,6 @@
-import React from "react"
-import Heading from "./Heading"
-import Card from "./Cards"
+import React from "react";
+import Heading from "./Heading";
+import Card from "./Cards";
 const data = [
     {
         id: 0,
